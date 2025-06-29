@@ -208,12 +208,14 @@ button:hover {
 
   #comprovante {
     position: absolute;
-    top: 30px;
-    left: 30px;
-    width: 70%;
-    font-size: 14px;
+    top: 50px;
+    left: 50px;
+    width: 60%;              /* menor que os 70% anteriores */
+    font-size: 12px;         /* fonte um pouco menor */
     padding: 20px;
-    background: white;
-    color: black;
+    background: white !important;
+    color: black !important;
+    box-shadow: none;
+    border: none;
   }
 }
