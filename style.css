@@ -49,10 +49,26 @@ footer {
     border-top: 2px solid #ffcc00;
 }
 
-h2, h3, h4 {
-    color: #ffcc00;
-    margin-bottom: 10px;
+h2 {
+    width: 100vw;
+    margin: 0 -20px 30px -20px; /* compensa padding do body */
+    padding: 30px 20px;
+
+    background: linear-gradient(90deg, #ffaa00, #ffcc00, #ffaa00);
+    color: #000;
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    box-shadow: 0 4px 12px rgba(255, 204, 0, 0.4);
+    border-bottom: 4px solid #ffcc00;
+
+    position: relative;
+    z-index: 2;
 }
+
 
 a {
     color: #ffaa00;
